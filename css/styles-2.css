@@ -1,0 +1,117 @@
+:root {
+    --primary-color: #23368d;
+    --secondary-color: #17a1f1;
+    --light-color: #ffffff;
+    --dark-color: #333;
+    --text-color: #ffffff;
+    --background-color: #575757;
+    --background-color-2: #d8d8d8;
+    --line-height-1: 1.6;
+    --line-height-2: 1.8;
+    --line-height-3: 2.0;
+    --padding-1: 1rem;
+    --padding-2: 1.5rem;
+    --padding-3: 2rem;
+    --margin-1: .5rem;
+    --margin-2: 1rem;
+    --margin-3: 1.5rem;
+    --gap-1: 1rem;
+    --gap-2: 2rem;
+    --gap-3: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    min-height: 100vh;
+    font-size: 1em; /* 16px */
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: var(--padding-1) var(--padding-3);
+    align-items: center;
+}
+
+.nav-links ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--text-color);
+    list-style: none;
+    gap: var(--gap-3);
+}
+.nav-links ul li a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.nav-links ul li a:hover{
+    color: var(--secondary-color);
+}
+
+.hero {
+    text-align: center;
+    padding: var(--padding-3);
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+}
+
+.hero h1, .hero h2 {
+    margin-bottom: var(--margin-2);
+}
+
+.hero p {
+    margin-bottom: var(--margin-1);
+    font-size: 1.25em;
+}
+
+footer {
+    background-color: var(--background-color);
+    color: var(--light-color);
+    padding: var(--padding-2) var(--padding-3);
+    display: grid;
+    grid-template-columns: repeat(auto, minmax(200px, 2fr));
+    gap: var(--gap-2);
+    text-align: center;
+}
+
+.info-footer{
+    margin: var(--margin-1);
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-1);
+    justify-content: space-around;
+    text-align: left;
+}
+
+.info-footer h3{
+    margin-bottom: var(--margin-2);
+    font-size: 1.5em;
+    color: var(--secondary-color);
+}
+
+.info-footer p{
+    margin-bottom: var(--margin-1);
+    font-size: 1.1em;
+}
