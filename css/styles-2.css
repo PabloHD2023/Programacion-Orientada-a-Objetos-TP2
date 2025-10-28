@@ -109,9 +109,14 @@ footer {
 }
 
 .info-footer h3{
-    margin-bottom: var(--margin-2);
+    margin-bottom: var(--margin-1);
     font-size: 1.5em;
     color: var(--secondary-color);
+}
+
+.info-footer span{
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 .info-footer p{
