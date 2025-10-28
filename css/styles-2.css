@@ -92,10 +92,10 @@ body{
 footer {
     background-color: var(--background-color);
     color: var(--light-color);
-    padding: var(--padding-2) var(--padding-3);
+    padding: var(--padding-1);
     display: grid;
     grid-template-columns: repeat(auto, minmax(200px, 2fr));
-    gap: var(--gap-2);
+    gap: var(--gap-1);
     text-align: center;
 }
 
@@ -103,7 +103,7 @@ footer {
     margin: var(--margin-1);
     display: flex;
     flex-direction: row;
-    gap: var(--gap-1);
+    gap: var(--gap-3);
     justify-content: space-around;
     text-align: left;
 }
@@ -144,5 +144,5 @@ footer span{
     text-align: center;
     /* margin-top: var(--margin-1); */
     font-size: 0.9em;
-    color: var(--text-color-3);
+    color: var(--text-color-2);
 }
