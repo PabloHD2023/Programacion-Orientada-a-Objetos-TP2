@@ -20,6 +20,7 @@
     --gap-1: 1rem;
     --gap-2: 2rem;
     --gap-3: 3rem;
+    --gap-4: 4rem;
 }
 
 * {
@@ -59,7 +60,7 @@ body{
     align-items: center;
     color: var(--text-color);
     list-style: none;
-    gap: var(--gap-3);
+    gap: var(--gap-4);
 }
 .nav-links ul li a{
     color: var(--text-color);
@@ -116,4 +117,32 @@ footer {
 .info-footer p{
     margin-bottom: var(--margin-1);
     font-size: 1.1em;
+}
+
+.footer-links ul li{
+    list-style: none;
+}
+
+.footer-links ul{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-1);
+    padding-left: 0;
+}
+
+.footer-links ul li a{
+    color: var(--light-color);
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.footer-links ul li a:hover{
+    color: var(--secondary-color);
+}
+
+footer span{
+    text-align: center;
+    /* margin-top: var(--margin-1); */
+    font-size: 0.9em;
+    color: var(--text-color-3);
 }
