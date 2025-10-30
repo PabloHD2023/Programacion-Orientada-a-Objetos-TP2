@@ -52,7 +52,7 @@ body {
     align-items: center;
     display: grid;
     grid-template-columns: auto auto;
-    padding: var(--padding-1) var(--padding-5);
+    padding: var(--padding-1) var(--padding-2);
 }
 
 .logo h1 {
@@ -68,7 +68,7 @@ body {
     list-style: none;
     gap: var(--gap-3);
     padding:  0 var(--padding-1);
-    width: 350px;
+    width: 550px;
 }
 
 .nav-links ul li a {
@@ -76,6 +76,7 @@ body {
     color: var(--text-color);
     text-decoration: none;
     font-size: 1.3em;
+    width: auto;
 }
 
 .nav-links ul li a:hover {
