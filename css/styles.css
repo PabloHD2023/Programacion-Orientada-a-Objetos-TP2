@@ -129,14 +129,14 @@ footer {
 .info-footer h3 {
     margin-bottom: var(--margin-1);
     font-size: 1.5em;
-    color: var(--secondary-color);
+    color: var(--text-color-4);
 }
 
 .info-footer span {
     font-size: 1.2em;
     font-weight: 600;
     font-style: normal;
-    color: var(--text-color-4);
+    color: var(--text-color);
 }
 
 .info-footer p {
