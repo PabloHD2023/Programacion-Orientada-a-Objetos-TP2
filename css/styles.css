@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #1b3242;
+    --primary-color: #092031;
     --secondary-color: #B4B8AB;
     --light-color: #ffffff;
     --dark-color: #1b3242;
@@ -7,7 +7,7 @@
     --text-color-2: #3f3f3f;
     --text-color-3: #B4b8ab;
     --text-color-4: #ff6600;
-    --background-color: #455168;
+    --background-color: #2f4161;
     --background-color-2: #B4B8AB;
     --line-height-1: 1.6;
     --line-height-2: 1.8;
@@ -162,7 +162,7 @@ footer {
 }
 
 .footer-links ul li a:hover {
-    color: var(--text-color-3);
+    color: var(--text-color-4);
 }
 
 footer span {
