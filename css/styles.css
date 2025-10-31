@@ -58,6 +58,7 @@ body {
 .logo h1 {
     font-size: 2.2em;
     color: var(--text-color);
+    margin-left: var(--margin-3);
 }
 
 .nav-links ul {
@@ -66,9 +67,9 @@ body {
     align-items: center;
     color: var(--text-color);
     list-style: none;
-    gap: var(--gap-3);
+    gap: var(--gap-2);
     padding:  0 var(--padding-1);
-    width: 550px;
+    width: 450px;
 }
 
 .nav-links ul li a {
