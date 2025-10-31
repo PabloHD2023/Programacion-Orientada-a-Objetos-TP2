@@ -1,11 +1,11 @@
 :root {
-    --primary-color: #23368d;
+    --primary-color: #172847;
     --secondary-color: #17a1f1;
     --light-color: #ffffff;
     --dark-color: #333;
     --text-color: #ffffff;
     --text-color-2: #9b9b9b;
-    --text-color-3: #17a1f1;
+    --text-color-3: #7dcfff;
     --background-color: #575757;
     --background-color-2: #d8d8d8;
     --line-height-1: 1.6;
@@ -81,7 +81,7 @@ body {
 }
 
 .nav-links ul li a:hover {
-    color: var(--secondary-color);
+    color: var(--text-color-3);
     opacity: 0.8;
 }
 
@@ -155,7 +155,7 @@ footer {
 }
 
 .footer-links ul li a:hover {
-    color: var(--secondary-color);
+    color: var(--text-color-3);
 }
 
 footer span {
