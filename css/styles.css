@@ -107,7 +107,7 @@ footer {
     color: var(--light-color);
     padding: var(--padding-1) var(--padding-5);
     display: grid;
-    grid-template-columns: repeat(auto, minmax(200px, 2fr));
+    grid-template-columns: repeat(auto, minmax(200px, 1fr));
     gap: var(--gap-1);
     text-align: center;
 }
@@ -115,10 +115,10 @@ footer {
 .info-footer {
     margin: var(--margin-1);
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: var(--gap-3);
+    grid-template-columns: auto auto auto;
+    gap: var(--gap-2);
     text-align: left;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .info-footer section {
