@@ -101,7 +101,12 @@ main {
     color: var(--dark-color);
 }
 
-.hero h1,
+.hero h1{
+    margin-bottom: var(--margin-2);
+    font-size: 3em;
+    color: var(--text-color-2);
+    text-shadow: #ffffff 3px 3px 4px;
+}
 .hero h2 {
     margin-bottom: var(--margin-2);
     color: var(--text-color-3);
