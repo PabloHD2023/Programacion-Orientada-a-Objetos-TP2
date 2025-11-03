@@ -84,6 +84,17 @@ body {
     color: var(--text-color-4);
 }
 
+main {
+    padding: var(--padding-4) var(--padding-5);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: var(--gap-3);
+    background-image: url(../img/acentos-metalicos-varios-tonos-oro-adornan-zona-recepcion-que-exuda-lujo-prestigio_216520-101573.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .hero {
     text-align: center;
     padding: var(--padding-3);
