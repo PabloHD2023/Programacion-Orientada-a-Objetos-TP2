@@ -5,7 +5,7 @@
     --dark-color: #333;
     --text-color: #ffffff;
     --text-color-2: #9b9b9b;
-    --text-color-3: #7dcfff;
+    --text-color-3: #3ba5e2;
     --background-color: #575757;
     --background-color-2: #d8d8d8;
     --line-height-1: 1.2;
@@ -166,5 +166,5 @@ footer span {
     text-align: center;
     /* margin-top: var(--margin-1); */
     font-size: 0.9em;
-    color: var(--text-color-2);
+    color: var(--text-color-1);
 }
