@@ -4,7 +4,7 @@
     --light-color: #ffffff;
     --dark-color: #333;
     --text-color: #ffffff;
-    --text-color-2: #9b9b9b;
+    --text-color-2: #c4c4c4;
     --text-color-3: #0a95e6;
     --background-color: #3a3a3a;
     --background-color-2: #d8d8d8;
@@ -19,6 +19,7 @@
     --margin-1: .5rem;
     --margin-2: 1rem;
     --margin-3: 1.5rem;
+    --margin-4: 15rem;
     --gap-1: 1rem;
     --gap-2: 2rem;
     --gap-3: 3rem;
@@ -76,13 +77,21 @@ body {
     color: var(--text-color-3);
 }
 
-.hero {
+main {
+    background-image: url(../img/recepcionista-femenina-con-traje-elegante-durante-las-horas-de-trabajo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
     text-align: center;
-    padding: var(--padding-3);
-    color: var(--dark-color);
 }
 
-.hero h1,
+.hero h1{
+    margin-bottom: var(--margin-2);
+    font-size: 4em;
+    color: var(--text-color-3);
+    text-shadow: #ffffff 2px 2px 4px;
+}
 .hero h2 {
     margin-bottom: var(--margin-2);
     color: var(--text-color-3);
@@ -92,6 +101,22 @@ body {
     margin-bottom: var(--margin-1);
     font-size: 1.25em;
     color: var(--text-color-2);
+}
+
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--gap-3);
+    /* margin-top: var(--margin-4); */
+}
+
+.picture {
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: var(--margin-4);
 }
 
 footer {
@@ -128,12 +153,13 @@ footer {
     font-size: 1.2em;
     font-weight: 600;
     font-style: normal;
-    color: var(--text-color-4);
+    color: var(--text-color);
 }
 
 .info-footer p {
     margin-bottom: var(--margin-1);
     font-size: 1.1em;
+    color: var(--text-color-2);
 }
 
 .footer-links ul li {
