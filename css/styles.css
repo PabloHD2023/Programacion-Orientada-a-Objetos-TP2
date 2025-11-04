@@ -6,6 +6,7 @@
     --text-color: #ffffff;
     --text-color-2: #c4c4c4;
     --text-color-3: #0a95e6;
+    --text-color-4: #bb9d1a;
     --background-color: #3a3a3a;
     --background-color-2: #d8d8d8;
     --line-height-1: 1.6;
@@ -52,7 +53,7 @@ body {
     align-items: center;
     display: grid;
     grid-template-columns: auto auto;
-    padding: var(--padding-1) var(--padding-2);
+    padding: var(--padding-2) var(--padding-5);
 }
 
 .nav-links ul {
@@ -78,19 +79,19 @@ body {
 }
 
 main {
-    background-image: url(../img/recepcionista-femenina-con-traje-elegante-durante-las-horas-de-trabajo.jpg);
+    /* background-image: url(../img/fondo-index-claro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     height: 100vh;
     text-align: center;
 }
 
 .hero h1{
-    margin-bottom: var(--margin-2);
+    margin: var(--margin-3);
     font-size: 4em;
     color: var(--text-color-3);
-    text-shadow: #ffffff 2px 2px 4px;
+    /* text-shadow: #ffffff 2px 2px 4px; */
 }
 .hero h2 {
     margin-bottom: var(--margin-2);
@@ -100,7 +101,8 @@ main {
 .hero p {
     margin-bottom: var(--margin-1);
     font-size: 1.25em;
-    color: var(--text-color-2);
+    color: var(--text-color);
+    font-weight: 700;
 }
 
 
@@ -109,14 +111,13 @@ main {
     flex-direction: row;
     justify-content: center;
     gap: var(--gap-3);
-    /* margin-top: var(--margin-4); */
+    margin-top: var(--margin-4);
 }
 
 .picture {
     width: 450px;
     height: 300px;
-    border-radius: 10px;
-    margin-top: var(--margin-4);
+    border-radius: 5px;
 }
 
 footer {
