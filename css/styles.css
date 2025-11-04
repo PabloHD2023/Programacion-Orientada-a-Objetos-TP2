@@ -5,8 +5,8 @@
     --dark-color: #333;
     --text-color: #ffffff;
     --text-color-2: #9b9b9b;
-    --text-color-3: #7dcfff;
-    --background-color: #575757;
+    --text-color-3: #0a95e6;
+    --background-color: #3a3a3a;
     --background-color-2: #d8d8d8;
     --line-height-1: 1.6;
     --line-height-2: 1.8;
@@ -54,13 +54,6 @@ body {
     padding: var(--padding-1) var(--padding-2);
 }
 
-.logo h1 {
-    font-size: 2.2em;
-    color: var(--text-color-4);
-    margin-left: var(--margin-3);
-    font-weight: 900;
-}
-
 .nav-links ul {
     display: flex;
     flex-direction: row;
@@ -80,7 +73,7 @@ body {
 }
 
 .nav-links ul li a:hover {
-    color: var(--text-color-4);
+    color: var(--text-color-3);
 }
 
 .hero {
@@ -104,9 +97,9 @@ body {
 footer {
     background-color: var(--background-color);
     color: var(--light-color);
-    padding: var(--padding-1) var(--padding-5);
+    padding: var(--padding-1);
     display: grid;
-    grid-template-columns: repeat(auto, minmax(200px, 2fr));
+    grid-template-columns: repeat(auto, minmax(200px, 1fr));
     gap: var(--gap-1);
     text-align: center;
 }
@@ -114,21 +107,21 @@ footer {
 .info-footer {
     margin: var(--margin-1);
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: var(--gap-3);
+    grid-template-columns: auto auto auto;
+    gap: var(--gap-1);
     text-align: left;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .info-footer section {
-    margin: var(--margin-2); 
-    max-width: 400px;
+    margin: var(--margin-1); 
+    min-width: 300px;
 }
 
 .info-footer h3 {
     margin-bottom: var(--margin-1);
     font-size: 1.5em;
-    color: var(--secondary-color);
+    color: var(--text-color-3);
 }
 
 .info-footer span {
@@ -169,5 +162,5 @@ footer span {
     text-align: center;
     /* margin-top: var(--margin-1); */
     font-size: 0.9em;
-    color: var(--text-color-2);
+    color: var(--text-color-3);
 }
